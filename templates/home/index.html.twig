@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+{{ encore_entry_link_tags('home') }}
+<div class="home">
+    <h1 class="rdmn">RDMN</h1>
+    <h1 class="fakerdmn">RDMN</h1>
+    <h2 class="baseline">Visual identity, graphics <br> &amp; web development</h2>
+    <img src="/img/whosback-home.jpg" alt="Affiche Who's Bach" class="bach">
+    <img src="/img/portrait.jpg" alt="portrait pixel" class="portrait">
+    <div class="menu">
+        <li class="li-menu">
+            <ul><a href="{{path('about')}}">ABOUT</a></ul>
+            <ul><a href="#">PROJECT</a></ul>
+            <ul><a href="#">CONTACT</a></ul>
+            <ul><a href="#">SHOP</a></ul>
+        </li>
+    </div>
+</div>
+{% block javascripts %}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}
+{% endblock %}

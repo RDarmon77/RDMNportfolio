@@ -1,0 +1,177 @@
+.about{
+    /* position: relative; */
+    color: #2b2b2b;
+    width: 100%;
+    height: 100vh;
+}
+.faketitle{
+    position: absolute;
+    z-index: 0;
+    top: 8%;
+    left: 10%;
+    font-family: 'Lexend Mega';
+    color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+}
+ @supports (-webkit-text-stroke: 1px #2b2b2b){
+    .title{
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        margin: 0;
+        padding: 0;
+        -webkit-text-stroke: 5px #2b2b2b;
+        font-family: 'Lexend Mega', sans-serif;
+        font-size: 10em;
+    }
+}
+
+.intro{
+    position:absolute;
+    top: 30%;
+    left: 15%;
+    font-family: 'Poppins';
+    font-size: 1.3em;
+}
+
+.subtitle{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: 'Poppins';
+    font-size: 1.4em;
+}
+
+.subtitle span{
+    font-weight: 400;
+}
+
+.paraf{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 30%;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.subtitle2{
+    position:absolute;
+    top: 60%;
+    left: 15%;
+    font-family: 'Poppins';
+    font-size: 1.4em;
+}
+
+.subtitle2 span{
+    font-weight: 400;
+}
+
+.paraf2{
+    position: absolute;
+    top: 69%;
+    left: 15%;
+    width: 30%;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.portraitabout1{
+    position: absolute;
+    width: 28%;
+    left: 64%;
+    top: -13%;
+}
+
+.portraitabout2{
+    position: absolute;
+    width: 36%;
+    top: 84%;
+    left: 32%;
+    padding-bottom: 150px;
+}
+
+/* SKILLS */
+.skills{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+@supports (-webkit-text-stroke: 1px #2b2b2b){
+    .title2{
+        position: absolute;
+        top: 155%;
+        left: 10%;
+        margin: 0;
+        padding: 0;
+        -webkit-text-stroke: 5px #2b2b2b;
+        font-family: 'Lexend Mega', sans-serif;
+        font-size: 10em;
+    }
+}
+
+.faketitle2{
+    position: absolute;
+    top: 155%;
+    left: 10%;
+    margin: 0;
+    padding: 0;
+    /* -webkit-text-stroke: 5px #2b2b2b; */
+    color: #EFEFEF;
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 10em;
+
+    padding-bottom: 50px;
+}
+
+/* .container-skills{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow: hidden;
+    width: 70%;
+    padding-bottom: 150px;
+}
+
+.container-skills img{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.container-skills-svg{
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow: hidden;
+    width: 70%;
+    height: 500px;
+}
+.container-skills-svg div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-skills-svg div svg{
+    margin: 0 auto;
+    width: 20%;
+}
